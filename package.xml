@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Shopalizes_Product_Sharing_Widget</name>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <stability>stable</stability>
     <license>Open Software License (OSL)</license>
     <channel>community</channel>
@@ -46,7 +46,7 @@
     <notes>Added Category URL in tracking code</notes>
     <authors><author><name>Aditya Kothadiya</name><user>shopalize</user><email>aditya@shopalize.com</email></author></authors>
     <date>2012-10-24</date>
-    <time>15:49:54</time>
+    <time>16:19:31</time>
     <contents><target name="magecommunity"><dir name="Shopalize"><dir name="Productsharing"><dir name="Block"><file name="Button.php" hash="f4245be87144fc3846cc04a1ebac8753"/><dir name="System"><dir name="Config"><dir name="Info"><file name="About.php" hash="85ddeb0452ac49f57c6cba1c5767c6f0"/></dir><file name="Info.php" hash="722ed6078214cb852016f46fe4d0a2d7"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="bcb1c942f01fc227d50bd8a764a69a9a"/></dir><dir name="etc"><file name="adminhtml.xml" hash="ccd6eae72f74df2ccfca174e646027b3"/><file name="config.xml" hash="e44ccde85201ddae175315210a997104"/><file name="system.xml" hash="6f1882d5c2ba0284a6ce2dc96bbd475d"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="shopalizeproductsharing.xml" hash="c40655923a1c754b7d491e2cbcd9945c"/></dir><dir name="template"><dir name="shopalizeproductsharing"><file name="basic_integration.phtml" hash="6c38dac0803f2632e9d01b384e6d0b39"/><file name="product_integration.phtml" hash="a33f616402d5765ae9300ee0d0643e60"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Shopalize_Productsharing.xml" hash="0fe28b06eef40ed847db7d9b41f8c6c2"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>100.0.0</max></php></required></dependencies>
