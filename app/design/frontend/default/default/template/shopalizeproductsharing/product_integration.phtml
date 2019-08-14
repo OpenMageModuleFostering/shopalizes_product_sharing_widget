@@ -1,0 +1,21 @@
+<?php
+if($this->isEnabled()){
+
+	$_product = $this->getProduct();
+	$cat_url = '';
+	$cat_url = $this->getProductCategoryURL($_product);
+	
+	?><!-- Shopalize Button Code BEGIN -->
+	<div class="shopalize-product-sharing"
+	  data-id  = "<?php echo $_product->getSku()?>"
+	  data-title = "<?php echo $this->getProductName()?>"
+	  data-description = "<?php echo $this->getShortDescription($_product)?>"
+	  data-url = "<?php echo $this->getProductUrl()?>"
+	  data-image-url =  "<?php echo $this->getProductImage($_product)?>"
+	  data-list-price = "<?php echo $this->getProductPrice($_product); ?>"
+	  data-current-price = "<?php echo $this->getProductSpecialPrice($_product); ?>"
+	  data-currency = "<?php echo Mage::app()->getStore()->getCurrentCurrencyCode() ?>"
+	  data-category-url="<?php echo $cat_url; ?>"> 
+	</div>
+	<!-- Shopalize Button Code END -->
+<?php } ?>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<package>
+    <name>Shopalizes_Product_Sharing_Widget</name>
+    <version>1.0.7</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Enables seamless sharing of Products you like with rewards to leading social platforms &amp; drives new referrals</summary>
+    <description>&lt;p&gt;Shopalize's Product Page Social Sharing plugin appears on your store's each Product page. Shoppers are enabled and rewarded for sharing products they like with their friends on Facebook, Twitter, Pinterest and Email.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;Once you integrate Shopalize's plugin to your store and start few campaigns, then you don't need any involvement maintaining these campaigns. Just sit back and let Shopalize drive social traffic and sales to your store. Seriously, it's the easiest and most powerful marketing solution out there.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;Shopalize also provides an A/B Testing platform to experiment with various rewards, messaging and styles. It also provides detailed social analytics to measure key metrics, ROI and track influential customers.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;To learn more about Shopalize, visit our website: &lt;a href="http://www.shopalize.com/?utm_source=magento&amp;utm_medium=showcase&amp;utm_campaign=product"&gt;http://www.shopalize.com&lt;/a&gt;.&lt;/p&gt;&#xD;
+&#xD;
+&lt;h1&gt;Installation Steps&lt;/h1&gt;&#xD;
+&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;Register an account with &lt;a href="http://www.shopalize.com/?utm_source=magento&amp;utm_medium=showcase&amp;utm_campaign=product"&gt;Shopalize.com&lt;/a&gt; before you start the installation to get your Account &amp; Store ID from Shopalize system.&lt;/li&gt;&#xD;
+&lt;li&gt;Then &lt;a href="http://www.shopalize.com/help/integration/magento?utm_source=magento&amp;utm_medium=showcase&amp;utm_campaign=product"&gt;follow these guidelines to install this extension&lt;/a&gt;.&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+&#xD;
+&lt;p&gt;That's it! You'll be all set to increase your customer referrals through social recommendations!&lt;/p&gt;&#xD;
+&#xD;
+&lt;h1&gt;Feature List&lt;/h1&gt;&#xD;
+&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;Customers share actual links of Products they like with their friends&lt;/li&gt;&#xD;
+&lt;li&gt;Customers share products they like on Facebook, Twitter, Pinterest and Email&lt;/li&gt;&#xD;
+&lt;li&gt;You can reward customers for various actions: Sharing Products, Referring Sales or Referring Traffic.&lt;/li&gt;&#xD;
+&lt;li&gt;You can reward customers with Coupons or Shopalize Points&lt;/li&gt;&#xD;
+&lt;li&gt;Coupons can be Percentage based, fixed amount based or Free Shipping based. They can be Unique one-time usage codes or single Common code&lt;/li&gt;&#xD;
+&lt;li&gt;Shopalize Points can be redeemed as Cash back or donated to charity&lt;/li&gt;&#xD;
+&lt;li&gt;Widget&#x2019;s text, color and messaging is completely customizable&lt;/li&gt;&#xD;
+&lt;li&gt;You get beautiful dashboard of key metrics - Shares, Posts, Clicks, Sales, Revenue, etc.&lt;/li&gt;&#xD;
+&lt;li&gt;View or download detailed reports of rewards that are distributed to your customers&lt;/li&gt;&#xD;
+&lt;li&gt;Identify your top influential customers using real-time leaderboard&lt;/li&gt;&#xD;
+&lt;li&gt;View all sharing activity feed in real-time to see which customers are sharing what products&lt;/li&gt;&#xD;
+&lt;li&gt;Experiment with different rewards, messaging and style using easy-to-use A/B testing platform&lt;/li&gt;&#xD;
+&lt;li&gt;Your customers can also view their shared activities and earned rewards at one central place&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+&#xD;
+&lt;h1&gt;&lt;a href="http://www.shopalize.com?utm_source=magento&amp;utm_medium=showcase&amp;utm_campaign=product"&gt;Sign up for Shopalize.com now!&lt;/a&gt;&lt;/h1&gt;</description>
+    <notes>Added Category URL in tracking code</notes>
+    <authors><author><name>Aditya Kothadiya</name><user>shopalize</user><email>aditya@shopalize.com</email></author></authors>
+    <date>2012-10-24</date>
+    <time>15:49:54</time>
+    <contents><target name="magecommunity"><dir name="Shopalize"><dir name="Productsharing"><dir name="Block"><file name="Button.php" hash="f4245be87144fc3846cc04a1ebac8753"/><dir name="System"><dir name="Config"><dir name="Info"><file name="About.php" hash="85ddeb0452ac49f57c6cba1c5767c6f0"/></dir><file name="Info.php" hash="722ed6078214cb852016f46fe4d0a2d7"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="bcb1c942f01fc227d50bd8a764a69a9a"/></dir><dir name="etc"><file name="adminhtml.xml" hash="ccd6eae72f74df2ccfca174e646027b3"/><file name="config.xml" hash="e44ccde85201ddae175315210a997104"/><file name="system.xml" hash="6f1882d5c2ba0284a6ce2dc96bbd475d"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="shopalizeproductsharing.xml" hash="c40655923a1c754b7d491e2cbcd9945c"/></dir><dir name="template"><dir name="shopalizeproductsharing"><file name="basic_integration.phtml" hash="6c38dac0803f2632e9d01b384e6d0b39"/><file name="product_integration.phtml" hash="a33f616402d5765ae9300ee0d0643e60"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Shopalize_Productsharing.xml" hash="0fe28b06eef40ed847db7d9b41f8c6c2"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>100.0.0</max></php></required></dependencies>
+</package>

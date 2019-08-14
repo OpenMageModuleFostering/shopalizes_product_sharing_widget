@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Shopalizes_Product_Sharing_Widget",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Enables seamless sharing of Products you like with rewards to leading social platforms & drives new referrals",
+    "authors": [
+    {
+        "name": "Aditya Kothadiya",
+        "email": "aditya@shopalize.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Shopalize_Productsharing>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Shopalize_Productsharing>
+    </modules>
+</config>
