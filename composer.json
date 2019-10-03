@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Shopalizes_Product_Sharing_Widget",
+    "name": "openmage-module-fostering\/shopalizes_product_sharing_widget",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Enables seamless sharing of Products you like with rewards to leading social platforms & drives new referrals",
     "authors": [
